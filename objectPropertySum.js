@@ -14,4 +14,3 @@ let sum=Object.values(expense).reduce((acc,curr)=>(acc+curr), 0)
 return sum
 }
 
-console.log(totalSum(expense));
