@@ -39,4 +39,3 @@ Array.prototype.myReduce = function (cb, initial) {
 
 const sum = [1,2,3,4,5].myReduce((a, b) => a + b,5)
 
-console.log(sum);
